@@ -57,7 +57,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: task-tracker-package
-          patch: task-tracker.zip
+          path: task-tracker.zip
           retention-days: 7
         
         
